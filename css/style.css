@@ -1,0 +1,194 @@
+@media (max-width: 992px) {
+  .main {
+    padding-top: 100px;
+  }
+
+  .sidebar, .side {
+    padding-top: 0;
+  }
+
+  .header {
+    padding-left: 15px;
+  }
+
+  textarea {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .side, .main {
+    padding-top: 100px;
+  }
+
+  .sidebar {
+    padding-top: 105px;
+  }
+
+  .header{
+    padding-left: 9%;
+  }
+
+  textarea {
+    width: 70%;
+  }
+}
+
+@media (max-width: 299px) {
+  .main {
+    padding-top: 100px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 333px) {
+  .main {
+    padding-top: 100px;
+  }
+
+  .subscribe {
+    display: none;
+  }
+}
+
+h2 a {
+  color: #332F2F;
+}
+
+h2 a:hover {
+  text-decoration: none;
+}
+
+h2 a:visited {
+  color: #949494;
+}
+
+.header {
+  background: white;
+  border-bottom: 1px solid #C0C0C0;
+  position: fixed;
+  z-index: 1;
+}
+
+.footer {
+  border-top: 1px solid #C0C0C0;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.tile {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  background:#DCD8D8;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.tileTitle{
+  padding: 10px;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.linksList{
+  margin-bottom: 10px;
+}
+
+.date {
+  float: right;
+  font-style: italic;
+  color: #BFC1B7;
+}
+
+.post {
+  margin: 10px 0;
+}
+
+.postImg {
+  padding: 5px;
+  width: 100px;
+  float: right;
+}
+
+.large {
+  width: 100%;
+}
+
+.tagsRare {
+  font-size: 0.6em;
+}
+
+.tagsOften {
+  font-size: 1.5em;
+}
+
+.pages {
+  padding: 15px;
+}
+
+#charCounter {
+  font-size: 0.5em;
+}
+
+.tag {
+  background:#B9B9B9;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.img {
+  float: right;
+  width: 200px;
+  margin: 10px;
+}
+
+.comment {
+  margin: 3px;
+  padding: 5px;
+  background:#DCD8D8;
+  border-radius: 6px;
+}
+
+.header a + a:before {
+  content: '\b7';
+}
+
+.socials {
+  text-align: center;
+}
+
+.subscribe {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  background: url(../img/social/spritesheet.png) no-repeat;
+  display: inline-block;
+}
+
+.socials .facebook {
+  background-position: -5px -5px;
+}
+
+.socials .flickr {
+  background-position: -63px -5px;
+}
+
+.socials .google-plus {
+  background-position: -5px -63px;
+}
+
+.socials .twitter {
+  background-position: -63px -63px;
+}
+
+.socials .youtube {
+  background-position: -121px -5px;
+}
+
+.btn {
+  font-size: 100%;
+}
